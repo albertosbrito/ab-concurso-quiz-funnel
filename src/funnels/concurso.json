@@ -1,9 +1,11 @@
 {
   "key": "concurso",
   "keyword": "CONCURSO",
-  "productName": "Apostila de Informática para Concursos",
+  "productName": "Apostila Informática para Concurso",
   "offerName": "Informática de Prova — Kit AntiPegadinha",
   "checkoutEnv": "CHECKOUT_CONCURSO_URL",
+  "originalPrice": "R$ 97",
+  "launchPrice": "R$ 47",
   "intro": "Perfeito. Vou te ajudar a revisar Informática do jeito que cai em concurso. Antes de te mandar o acesso, responde rapidinho:",
   "steps": [
     {
@@ -18,8 +20,8 @@
     },
     {
       "id": "dificuldade",
-      "question": "Em Informática, o que mais te atrapalha hoje?\n\n1. Windows e arquivos\n2. Word, Excel e PowerPoint\n3. Internet e navegadores\n4. Segurança da informação\n5. Backup, nuvem e redes\n6. IA, LGPD e temas atuais\n7. Questões com pegadinha",
-      "options": ["Windows e arquivos", "Word, Excel e PowerPoint", "Internet e navegadores", "Segurança da informação", "Backup, nuvem e redes", "IA, LGPD e temas atuais", "Questões com pegadinha"]
+      "question": "Em Informática, o que mais te atrapalha hoje?\n\n1. Fundamentos, hardware e software\n2. Windows, arquivos e atalhos\n3. Word, Excel, PowerPoint e LibreOffice\n4. Internet, Web, navegadores e e-mail\n5. Segurança, backup, nuvem e redes\n6. LGPD, privacidade digital e Inteligência Artificial\n7. Questões com pegadinha e estilo Cebraspe",
+      "options": ["Fundamentos, hardware e software", "Windows, arquivos e atalhos", "Word, Excel, PowerPoint e LibreOffice", "Internet, Web, navegadores e e-mail", "Segurança, backup, nuvem e redes", "LGPD, privacidade digital e Inteligência Artificial", "Questões com pegadinha e estilo Cebraspe"]
     },
     {
       "id": "nivel",
@@ -33,11 +35,22 @@
     }
   ],
   "offerBullets": [
-    "Windows, arquivos e atalhos",
-    "Word, Excel e PowerPoint do jeito que cai em prova",
-    "Internet, e-mail e navegadores",
-    "Segurança da informação, backup e nuvem",
-    "Redes, LGPD e Inteligência Artificial",
-    "Questões comentadas e pegadinhas de banca"
+    "Fundamentos de informática",
+    "Hardware e software",
+    "Windows",
+    "Internet, Web e navegadores",
+    "E-mail e comunicação digital",
+    "Segurança da informação",
+    "Word, Excel, PowerPoint e LibreOffice",
+    "Computação em nuvem",
+    "Redes de computadores",
+    "Backup",
+    "LGPD e privacidade digital",
+    "Inteligência Artificial",
+    "Atalhos mais cobrados",
+    "Pegadinhas de prova",
+    "Questões comentadas",
+    "Itens estilo Cebraspe",
+    "Simulado final com gabarito"
   ]
 }
