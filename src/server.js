@@ -7,6 +7,7 @@ import healthRoutes from './routes/health.routes.js';
 import funnelRoutes from './routes/funnel.routes.js';
 import checkoutRoutes from './routes/checkout.routes.js';
 import testRoutes from './routes/test.routes.js';
+import amostraRoutes from './routes/amostra.routes.js';
 import { errorHandler, notFoundHandler } from './utils/http.js';
 
 const app = express();
@@ -20,6 +21,7 @@ app.use('/health', healthRoutes);
 app.use('/funnel', funnelRoutes);
 app.use('/c', checkoutRoutes);
 app.use('/test', testRoutes);
+app.use('/amostra', amostraRoutes);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
